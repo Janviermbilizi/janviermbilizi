@@ -40,7 +40,7 @@ class Contact extends Component {
       message: this.state.message,
     };
     axios
-      .post("http://localhost:8080/send", data)
+      .post("https://janviermbilizi.herokuapp.com/send", data)
       .then(() => {
         this.setState({ msg: "Request submitted! Thank you " });
         this.resetForm();
