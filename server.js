@@ -60,11 +60,16 @@ app.post("/send", function (req, res) {
     // port: 587,
     // secure: false, // true for 465, false for other ports
     host: "smtp.gmail.com",
-    port: 587,
+    port: 465,
     secureConnection: true,
     auth: {
+      type: "OAuth2",
       user: creds.USER, // generated ethereal user
       pass: creds.PASS, // generated ethereal password
+      clientId: creds.clientID,
+      clientSecret: creds.clientSecret,
+      refreshToken: creds.refreshToken,
+      accessToken: creds.accessToken,
     },
     tls: {
       rejectUnauthorized: false,
@@ -91,7 +96,6 @@ app.post("/send", function (req, res) {
     }
     console.log("Message sent: %s", info.messageId);
     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
   });
   //send an inform the team or me that someone request to be
   transporter.sendMail(contactRequest, (error, info) => {
