@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/janviermbilizi/static/css/main.7051b8a7.chunk.css",
+    "main.js": "/janviermbilizi/static/js/main.18d52322.chunk.js",
+    "main.js.map": "/janviermbilizi/static/js/main.18d52322.chunk.js.map",
+    "runtime-main.js": "/janviermbilizi/static/js/runtime-main.287efc06.js",
+    "runtime-main.js.map": "/janviermbilizi/static/js/runtime-main.287efc06.js.map",
+    "static/js/2.2bae8f97.chunk.js": "/janviermbilizi/static/js/2.2bae8f97.chunk.js",
+    "static/js/2.2bae8f97.chunk.js.map": "/janviermbilizi/static/js/2.2bae8f97.chunk.js.map",
+    "index.html": "/janviermbilizi/index.html",
+    "precache-manifest.737e97e0cac0695b52c00a57cff87bb1.js": "/janviermbilizi/precache-manifest.737e97e0cac0695b52c00a57cff87bb1.js",
+    "service-worker.js": "/janviermbilizi/service-worker.js",
+    "static/css/main.7051b8a7.chunk.css.map": "/janviermbilizi/static/css/main.7051b8a7.chunk.css.map",
+    "static/js/2.2bae8f97.chunk.js.LICENSE.txt": "/janviermbilizi/static/js/2.2bae8f97.chunk.js.LICENSE.txt",
+    "static/media/Metabook.png": "/janviermbilizi/static/media/Metabook.14c0ee89.png",
+    "static/media/My Resume.pdf": "/janviermbilizi/static/media/My Resume.6a0e1d89.pdf",
+    "static/media/burgerApp.png": "/janviermbilizi/static/media/burgerApp.f688f847.png",
+    "static/media/codeQuiz.png": "/janviermbilizi/static/media/codeQuiz.9ca4473f.png",
+    "static/media/facebookLink.png": "/janviermbilizi/static/media/facebookLink.ff90806f.png",
+    "static/media/noteTaker.png": "/janviermbilizi/static/media/noteTaker.2fadd585.png",
+    "static/media/profil.jpg": "/janviermbilizi/static/media/profil.89f4fdab.jpg",
+    "static/media/traveler.jpg": "/janviermbilizi/static/media/traveler.c547791d.jpg",
+    "static/media/weatherDashbord.png": "/janviermbilizi/static/media/weatherDashbord.0a83a82d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.287efc06.js",
+    "static/js/2.2bae8f97.chunk.js",
+    "static/css/main.7051b8a7.chunk.css",
+    "static/js/main.18d52322.chunk.js"
+  ]
+}
