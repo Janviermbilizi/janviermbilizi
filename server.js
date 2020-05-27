@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //use cors to allow cross origin resource sharing
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://janviermbilizi.github.io/janvier.mbilizi",
     credentials: true,
   })
 );
